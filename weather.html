@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WeatherNow</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body id="weatherbody"></body>
+        <h1 style="text-align: center; color: whitesmoke; background-color: rgba(0, 0, 0, 0.6); border-radius: 20px;">CURRENT WEATHER</h1>
+        <nav class="grid-container">
+            <div class="one box">
+                <h2 id="city">CHENNAI</h2>
+                <h3 id="day">Monday</h3>
+                <h4 id="date">00/00/0000</h4>
+                <h4 id="time">10:10 AM</h4>
+            </div>
+            <div class="two box">
+                <img id="icon" src="">
+                <p id="description">Partly Cloudy</p>
+            </div>
+            <div class="three box">
+                <p id="temp">22°C</p>
+                <p id="feel">feels like </p>
+            </div>
+            <div class="four box">
+                <p id="pressure">Pressure: </p>
+                <p id="humidity">Humidity: </p>
+                <p id="visibility">visibility: </p> 
+            </div>
+            <div class="five box">
+                <div id="wind">
+                    <p id="wind-speed">Wind speed: </p>
+                    <p id="wind-degree">Wind degree: </p>
+                </div>
+                <div id="sun">
+                    <p id="sunrise">Sunrise: </p>
+                    <p id="sunset">Sunset: </p>
+                </div>
+            </div>
+            <div class="six box">
+                <p id="country">country</p>
+                <p style=" margin: 1rem 0">COORDINATES:</p>
+                <p id="lat" style="margin:0 1rem;">longitude: </p>
+                <p id="long" style="margin:0 1rem;">latitude: </p>
+            </div>
+            <button onclick="window.location.href='index.html'">SEARCH AGAIN</button>
+        </nav>
+        <script src="scripts.js"></script>
+
+
+
+
+
+    </body>
+</html>

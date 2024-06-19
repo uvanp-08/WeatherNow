@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WeatherNow</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body class="searchbody">
+        <img src="./images/searchwallpaper.jpg" alt="travel image" style="width:100vw; height: 100vh; object-fit:cover; opacity: 0.9">
+        <div class="card">
+            <h1>WEATHER NOW</h1>
+            <div class="search">
+                <input type="text" id="location-input" placeholder="Enter City Name" spellcheck="false">
+                <button onclick="getWeatherByInput()"><img src="./images/search.png" alt="search icon"></button>
+            </div>
+            <div id="error-message" style="color: red;"></div>
+        </div>
+        <script src="scripts.js"></script>
+
+
+
+
+
+    </body>
+</html>

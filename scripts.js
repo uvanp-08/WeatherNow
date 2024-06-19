@@ -88,7 +88,7 @@ function displayWeather(data) {
         document.getElementById('weatherbody').style.backgroundImage = "url('./images/hazewall.webp')";
     }
     if(data.weather[0].main == 'Thunderstorm'){
-        weatherIcon.src = "./images/thunderstorm.jpg";
+        weatherIcon.src = "./images/thunderstorm.png";
         document.getElementById('weatherbody').style.backgroundImage = "url('./images/thunderstormwall.jpg')";
     }
 

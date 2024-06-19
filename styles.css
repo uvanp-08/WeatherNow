@@ -319,5 +319,9 @@ nav > button{
     nav > button{
         width: 20rem
     }
+    .search input{
+        padding: 10px 10px;
+        margin-right: 10px;
+    }
     
 }

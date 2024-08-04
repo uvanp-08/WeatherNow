@@ -1,5 +1,5 @@
 # WEATHERNOW
-This is a current weather showing web page which is fully responsive and built using HTML, CSS and JavaScript. It shows the user about the current weather conditions of a place based on the city location search. It uses the openweathermap api to fetch the weather conditions.
+This is a current weather showing web page which is fully responsive and built using HTML, CSS and JavaScript. It shows the user about the current weather conditions of a place based on the city location search. It uses the openweathermap api to fetch the weather conditions.Done as part of web development internship at Prodigy Infotech.
 
 ## Features
 - **Current weather details**: It displays the current weather details of a city using the values fetched from openweathermap api.
